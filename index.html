@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>EcoNsciencia</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+</head>
+
+  <body>
+    <div id="app">
+      <div id="perguntas" class="tela">
+        <h2 id="perguntaTexto"></h2>
+
+        <div id="opcoes"></div>
+      </div>
+
+      <div id="resultado" class="tela hidden">
+
+        <div class="graficos">
+          <div class="graficoBloco">
+            <h3>Seu impacto</h3>
+            <canvas id="graficoUsuario"></canvas>
+            <div class="dadosUsuario"></div>
+          </div>
+
+          <div class="graficoBloco">
+            <h3>Impacto das grandes indústrias</h3>
+            <canvas id="graficoIndustria"></canvas>
+            <div class="dadosIndustria"></div>
+          </div>
+        </div>
+
+        <div id="impactoUsuario"></div>
+
+        <div id="comparacao"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
