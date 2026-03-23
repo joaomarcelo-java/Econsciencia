@@ -1,23 +1,74 @@
-✨ Funcionalidades
+# 🌱 Econsciência
 
-    Quiz Dinâmico: Perguntas sobre hábitos diários (banho, transporte, consumo, energia e tecnologia).
+Quiz interativo que calcula a pegada de carbono do usuário e compara com o impacto das grandes indústrias globais. Desenvolvido com HTML, CSS e JavaScript puro, hospedado via GitHub Pages.
 
-    Cálculo em Tempo Real: Algoritmo que estima a emissão anual de toneladas de CO2​ com base nas respostas.
+🔗 **[Acesse o projeto online](https://joaomarcelo-java.github.io/Econsciencia/)**
 
-    Visualização de Dados: Gráficos interativos (estilo doughnut) utilizando a biblioteca Chart.js.
+> Desenvolvido como **atividade complementar** do curso de Análise e Desenvolvimento de Sistemas na Universidade Paulista (UNIP).
 
-    Perspectiva Comparativa: Compara o impacto do usuário com dados reais de emissões industriais em escala de bilhões de toneladas.
+---
 
-    Design Responsivo: Interface otimizada para dispositivos móveis e desktop com um visual moderno em Dark Mode.
+## 💡 Sobre
 
-🛠️ Tecnologias Utilizadas
+O projeto faz uma crítica ao discurso de que a responsabilidade ambiental recai principalmente sobre os indivíduos. Após responder 5 perguntas sobre hábitos de consumo, o usuário vê sua pegada de carbono estimada em toneladas de CO₂ por ano — e descobre que, mesmo zerando seu impacto, isso representaria menos de **0.0000002%** das emissões globais da indústria.
 
-    HTML5: Estruturação semântica da aplicação.
+---
 
-    CSS3: Estilização personalizada, animações de fade-in/out e layout responsivo com Flexbox.
+## ✨ Funcionalidades
 
-    JavaScript (Vanilla): Lógica do quiz, manipulação do DOM e cálculos de impacto.
+- Quiz com 5 perguntas sobre hábitos cotidianos (banho, transporte, consumo, energia, tecnologia)
+- Cálculo estimado da pegada de carbono do usuário em toneladas de CO₂/ano
+- Gráfico de rosca com o impacto do usuário por categoria
+- Gráfico comparativo com as emissões das grandes indústrias globais
+- Análise crítica sobre consumo, economia e meio ambiente
+- Animações de transição entre telas
+- Layout responsivo para celular e desktop
 
-    Chart.js: Biblioteca externa para renderização dos gráficos de impacto ambiental.
+---
 
-    Google Fonts: Fonte Poppins para uma tipografia limpa e moderna.
+## 🛠️ Tecnologias utilizadas
+
+| Tecnologia | Uso |
+|---|---|
+| HTML5 | Estrutura das telas |
+| CSS3 | Estilo, animações e responsividade |
+| JavaScript | Lógica do quiz e cálculos |
+| Chart.js | Gráficos de rosca interativos |
+| GitHub Pages | Hospedagem gratuita |
+
+---
+
+## 🏗️ Estrutura
+
+```
+Econsciencia/
+├── index.html    # Estrutura das telas (quiz e resultado)
+├── style.css     # Estilo, animações e layout responsivo
+└── script.js     # Perguntas, cálculos, gráficos e comparações
+```
+
+---
+
+## ▶️ Como rodar localmente
+
+Não precisa instalar nada — basta abrir o arquivo no navegador:
+
+```bash
+# Clone o repositório
+git clone https://github.com/joaomarcelo-java/Econsciencia.git
+
+# Abra o arquivo no navegador
+cd Econsciencia
+start index.html   # Windows
+open index.html    # Mac
+```
+
+Ou acesse diretamente pelo link do GitHub Pages acima.
+
+---
+
+## 👨‍💻 Autor
+
+**João Marcelo**  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-joaomarcelo-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/jo%C3%A3o-marcelo-0244ba35a/)
+[![GitHub](https://img.shields.io/badge/GitHub-joaomarcelo--java-black?style=flat&logo=github)](https://github.com/joaomarcelo-java)
